@@ -36,6 +36,7 @@ end
   counter += 1
 end
 puts result
+return result
 # inner_count = 0
 # gross = 0
 
