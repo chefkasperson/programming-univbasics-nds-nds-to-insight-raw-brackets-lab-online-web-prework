@@ -31,6 +31,7 @@ def directors_totals(nds)
 end 
   total = {name => ss}
   result = result.merge!(total)
+  ss = 0
   counter += 1
 end
 puts result
