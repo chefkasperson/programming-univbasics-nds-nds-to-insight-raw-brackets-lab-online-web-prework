@@ -35,4 +35,7 @@ def directors_totals(nds)
 #   counter += 1
 # end
 # puts result
+inner_count = 0
+
+while inner_count < directors_database
 end
