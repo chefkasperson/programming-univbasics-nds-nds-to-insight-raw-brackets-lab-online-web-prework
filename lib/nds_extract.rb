@@ -36,11 +36,11 @@ def directors_totals(nds)
 # end
 # puts result
 inner_count = 0
-worldwide_gross = 0
+gross = 0
 
 while inner_count < directors_database[0][:movies][inner_count].length do
-  worldwide_gross += directors_database[0][:movies][inner_count][:worldwide_gross]
+  gross += directors_database[0][:movies][inner_count][:worldwide_gross]
   inner_count += 1
 end
-puts worldwide_gross
+puts gross
 end
