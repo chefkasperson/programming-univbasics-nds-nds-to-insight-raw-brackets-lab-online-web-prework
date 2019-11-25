@@ -18,5 +18,20 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  nil
+  # require 'pp'
+  # pp directors_database
+  count = 0
+  counter = 0
+  ss = 0 
+  while counter < nds.length do
+    name = nds[counter][:name]
+  while count < nds[counter][:movies].length do
+  ss += nds[counter][:movies][count][:worldwide_gross]
+  count += 1
+end 
+  total = {name => ss}
+  result = result.merge!(total)
+  counter += 1
+end
+puts result
 end
