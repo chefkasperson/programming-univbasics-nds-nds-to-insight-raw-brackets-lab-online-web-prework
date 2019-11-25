@@ -32,6 +32,7 @@ end
   total = {name => ss}
   result = result.merge!(total)
   ss = 0
+  count = 0
   counter += 1
 end
 puts result
