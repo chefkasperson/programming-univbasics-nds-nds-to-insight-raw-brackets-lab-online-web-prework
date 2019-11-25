@@ -38,8 +38,8 @@ def directors_totals(nds)
 inner_count = 0
 worldwide_gross = 0
 
-while inner_count < directors_database[2][:movies][inner_count].length do
-  worldwide_gross += directors_database[2][:movies][inner_count][:worldwide_gross]
+while inner_count < directors_database[0][:movies][inner_count].length do
+  worldwide_gross += directors_database[0][:movies][inner_count][:worldwide_gross]
   inner_count += 1
 end
 puts worldwide_gross
