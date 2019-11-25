@@ -18,8 +18,8 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  require 'pp'
-  pp directors_database
+  # require 'pp'
+  # pp directors_database
 #   count = 0
 #   counter = 0
 #   ss = 0 
